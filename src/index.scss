@@ -7,10 +7,12 @@
   margin-left: 1rem;
   font-size: 1.5rem;
   font-family: 'Shrikhand', cursive; }
+  @media screen and (min-width: 40em) {
+    .nav-list__item {
+      font-size: 1.2rem; } }
 
-@media screen and (min-width: 40em) {
-  .nav-list__item {
-    font-size: 1.2rem; } }
+.intro {
+}
 
 .intro__title {
   font-family: 'Shrikhand', cursive;
@@ -37,21 +39,18 @@
 .card__body {
   padding: 2rem;
   text-align: left; }
-
-.card__body a,
-.card__body a:visited {
-  color: #3aa2e9;
-  text-decoration: underline; }
-
-.card__body a:hover,
-.card__body a:visited:hover {
-  color: #83c3de; }
+  .card__body a,
+  .card__body a:visited {
+    color: #3aa2e9;
+    text-decoration: underline; }
+    .card__body a:hover,
+    .card__body a:visited:hover {
+      color: #83c3de; }
 
 .card__photo {
   margin: 0 0 1rem 0; }
-
-.card__photo:last-child {
-  margin: 0; }
+  .card__photo:last-child {
+    margin: 0; }
 
 .card__title {
   font-family: 'Shrikhand', cursive;
