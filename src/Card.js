@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactSafeHtml from 'react-safe-html';
 
+import './styles/Card.css';
+
 function ImageList(props) {
   let list = null;
 

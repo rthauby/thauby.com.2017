@@ -1,3 +1,5 @@
+@import 'variables';
+
 .intro {
     height: 70vh;
     display: flex;
@@ -7,13 +9,20 @@
 }
 
 .intro__title {
+    font-family: $serif;
     font-size: 1.5rem;
+    font-weight: 500;
+    font-size: 2.5rem;
 }
 
 .intro__subtitle {
-    font-size: 1rem;
+    font-family: $serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-size: 1.25rem;
 }
 
 .intro-links__items {
-    padding-left: 1rem;
+    padding: 0 0.5rem;
+    text-decoration: underline;
 }

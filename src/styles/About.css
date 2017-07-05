@@ -6,8 +6,11 @@
   justify-content: center;
   background-image: url("/img/den.png");
   background-size: cover;
-  height: 100vh;
   text-shadow: 0 1px 1px black; }
+
+@media screen and (min-width: 40em) {
+  .about {
+    height: 100vh; } }
 
 .about a,
 .about a:visited {
@@ -15,4 +18,9 @@
 
 .about__mugshot {
   border-radius: 100%;
-  max-width: 75%; }
+  max-width: 75%;
+  margin: 2rem 0; }
+
+@media screen and (min-width: 40em) {
+  .about__mugshot {
+    margin: 0; } }
