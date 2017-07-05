@@ -1,0 +1,13 @@
+[
+    {
+        "title" : "Dropzone - PC Game (Early Access Steam)",
+        "body" : "<p>I joined Sparkypants Studios to help push Dropzone past the finish line and into the launch window. Eveything in the UI was powered using standard Web Technologies: HTML, CSS and tons and tons of  vanilla JavaScript. From the Matchmaking Menus, to User Preferences to in-game HUD and after-match result charts, and everything in between.</p><p>It was an absolute blast to work on this intense project.</p>",
+        "images" : [
+            "img/work/dz_01.jpg",
+            "img/work/dz_02.jpg",
+            "img/work/dz_03.jpg",
+            "img/work/dz_04.jpg",
+            "img/work/dz_05.jpg"
+        ]
+    }
+]
