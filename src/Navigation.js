@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom'
+
 import About from './About'
 import Work from './Work'
 import Hobbies from './Hobbies'
+
+import './styles/Navigation.css';
 
 class Navigation extends Component {
   render() {
