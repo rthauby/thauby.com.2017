@@ -1,13 +1,20 @@
 [
     {
-        "title" : "Dropzone - PC Game (Early Access Steam)",
-        "body" : "<p>I joined Sparkypants Studios to help push Dropzone past the finish line and into the launch window. Eveything in the UI was powered using standard Web Technologies: HTML, CSS and tons and tons of  vanilla JavaScript. From the Matchmaking Menus, to User Preferences to in-game HUD and after-match result charts, and everything in between.</p><p>It was an absolute blast to work on this intense project.</p>",
+        "title" : "Game Development",
+        "body" : "<p>Below is a short demo reel of my various experiments in Unity, Unreal Engine, and the colateral artwork I had to create to support it. Most of that artwork was created in blender, zbrush and modo.</p><div class='embed-container'><video controls name='media'><source src='/static/videos/reel.webm' type='video/webm'></video></div>",
+        "images" : []
+    },
+    {
+        "title" : "Traditional Sculpting",
+        "body" : "<p>My interest in traditional sculpting started from getting introduced to Garage Kits by my father in law. Slowly I became more interested in producing my own GK than purchasing them, and eventually that has led into digital sculpting which is what I'm currently trying my hand at.</p>",
         "images" : [
-            "img/work/dz_01.jpg",
-            "img/work/dz_02.jpg",
-            "img/work/dz_03.jpg",
-            "img/work/dz_04.jpg",
-            "img/work/dz_05.jpg"
+            "img/art/sculpts/urban-warfare.png",
+            "img/art/sculpts/strigoi.png",
+            "img/art/sculpts/starkiller1.png",
+            "img/art/sculpts/starkiller2.png",
+            "img/art/sculpts/sam.png",
+            "img/art/sculpts/neo.png",
+            "img/art/sculpts/juggernaut.png"
         ]
     }
 ]

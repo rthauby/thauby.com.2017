@@ -5,7 +5,9 @@
   flex-direction: column;
   justify-content: center;
   background-image: url("/img/den.png");
-  background-size: cover; }
+  background-size: cover;
+  height: 100vh;
+  text-shadow: 0 1px 1px black; }
 
 .about a,
 .about a:visited {

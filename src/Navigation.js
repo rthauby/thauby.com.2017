@@ -15,6 +15,7 @@ class Navigation extends Component {
                       <li className="nav-list__item"><NavLink to="/" activeClassName="selected">Home</NavLink></li>
                       <li className="nav-list__item"><NavLink to="/work" activeClassName="selected">Work</NavLink></li>
                       <li className="nav-list__item"><NavLink to="/hobbies" activeClassName="selected">Hobbies</NavLink></li>
+                      <li className="nav-list__item"><a href="https://medium.com/@Pucho" activeClassName="selected">Blog</a></li>
                   </ul>
               </div>
           </div>

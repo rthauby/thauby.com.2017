@@ -8,8 +8,8 @@ import Home from './Home';
 import Work from './Work';
 import Hobbies from './Hobbies';
 
-import './styles/Base.css';
-import './index.css';
+
+import './styles/index.css';
 
 ReactDOM.render(
     <Router>
