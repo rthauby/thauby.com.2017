@@ -24,6 +24,7 @@
   margin: 0; }
 
 .card__title {
+  font-family: "Spectral", serif;
   font-size: 1.5rem;
   text-align: center;
   color: #8a8a8a;

@@ -16,3 +16,14 @@
         display: inline-block;
     }
 }
+
+.home-link {
+  position: absolute;
+  background: url("/img/cookie.png") center center no-repeat;
+  text-indent: -9999px;
+  color: transparent;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  margin: 10px 0;
+}
