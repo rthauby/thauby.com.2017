@@ -6,9 +6,9 @@ function CardList(props){
 
   if (props.cards.length){
     list = (<div>
-    {props.cards.map(card => {
+    {props.cards.map((card, index) => {
       return (
-        <Card cardValue={card} />
+        <Card key={index} cardValue={card} />
       )
     })}
     </div>)

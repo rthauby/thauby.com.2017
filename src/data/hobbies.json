@@ -1,7 +1,8 @@
 [
     {
         "title" : "Game Development",
-        "body" : "<p>Below is a short demo reel of my various experiments in Unity, Unreal Engine, and the colateral artwork I had to create to support it. Most of that artwork was created in blender, zbrush and modo.</p><div class='embed-container'><video controls name='media'><source src='/static/videos/reel.webm' type='video/webm'></video></div>",
+        "body" : "<p>Below is a short demo reel of my various experiments in Unity, Unreal Engine, and the colateral artwork I had to create to support it. Most of that artwork was created in blender, zbrush and modo.</p></div>",
+        "embed" : "<div class='embed-container'><video controls name='media'><source src='videos/reel.webm' type='video/webm' /></video>",
         "images" : []
     },
     {

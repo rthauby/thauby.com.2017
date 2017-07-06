@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Card from './Card'
-import CardList from './CardList'
+import CardList from './CardList';
+import CardSection from './CardSection'
 import CardData from './data/hobbies.json';
 
 class Work extends Component {
@@ -19,14 +20,7 @@ class Work extends Component {
 
   render() {
     return (
-      <section id="work">
-          <div className="row aligned-center">
-              <div className="small-12 columns">
-                  <h3>Hobbies</h3>
-                  <CardList cards={this.state.cards} />
-              </div>
-          </div>
-      </section>
+      <CardSection idName="hobbies" title="Hobbies" cards={this.state.cards} />
     );
   }
 }

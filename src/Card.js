@@ -3,6 +3,16 @@ import ReactSafeHtml from 'react-safe-html';
 
 import './styles/Card.css';
 
+let components = ReactSafeHtml.components.makeElements({'class':true});
+components.source = ReactSafeHtml.components.createSimpleElement('source', {
+  'src':true,
+  'type':true
+});
+components.video = ReactSafeHtml.components.createSimpleElement('video', {
+  'controls':true,
+  'name':true
+});
+
 function ImageList(props) {
   let list = null;
 
@@ -31,7 +41,8 @@ function Card(props) {
       <div className="card">
           <div className="card__body">
               <h4 className="card__title">{props.cardValue.title}</h4>
-              <ReactSafeHtml html={props.cardValue.body} />
+              <ReactSafeHtml html={props.cardValue.body} components={components} />
+              <div dangerouslySetInnerHTML={{__html: props.cardValue.embed}}></div>
           </div>
           <ImageList images={props.cardValue.images} />
       </div>
