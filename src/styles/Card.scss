@@ -17,6 +17,15 @@
   padding: 2rem;
   text-align: left;
 }
+.card__title {
+  font-family: $serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #8a8a8a;
+  border-bottom: 1px solid #8a8a8a;
+  padding: 0.5rem 0 1rem 0;
+  margin-bottom: 2rem;
+}
 .card__body a,
 .card__body a:visited {
   color: #3aa2e9;
@@ -32,16 +41,6 @@
 }
 .card__photo:last-child {
   margin: 0;
-}
-
-.card__title {
-  font-family: $serif;
-  font-size: 1.5rem;
-  text-align: center;
-  color: #8a8a8a;
-  border-bottom: 1px solid #8a8a8a;
-  padding: 0.5rem 0 1rem 0;
-  margin-bottom: 2rem;
 }
 
 .embed-container {

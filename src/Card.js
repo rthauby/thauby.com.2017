@@ -20,7 +20,7 @@ function ImageList(props) {
     list = (<div>
     {props.images.map((image, index) => {
       return (
-        <img key={index} src={image} alt={index}/>
+        <img key={index} src={image} alt={index} className='cardImage'/>
       )
     })}
     </div>)
