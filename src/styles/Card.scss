@@ -16,6 +16,7 @@
 .card__body {
   padding: 2rem;
   text-align: left;
+  z-index: 10;
 }
 .card__title {
   font-family: $serif;
@@ -26,6 +27,38 @@
   padding: 0.5rem 0 1rem 0;
   margin-bottom: 2rem;
 }
+
+@media screen and (min-width: 60em) {
+  .card {
+    color: white;
+    margin-bottom: 4rem;
+    position: relative;
+    background-color: transparent;
+  }
+
+  .card__body {
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 6rem;
+    width: 50%;
+    background: rgba(255,255,255,0.9);
+    color: black;
+    padding: 1rem;
+    transform: skew(-8deg);
+  }
+  .cardImage {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .cardImage:first-child {
+    margin-top: 10rem;
+  }
+  .embedded .spacer {
+    padding-top: 10rem;
+  }
+}
+
 .card__body a,
 .card__body a:visited {
   color: #3aa2e9;

@@ -42,8 +42,8 @@ function Card(props) {
           <div className="card__body">
               <h4 className="card__title">{props.cardValue.title}</h4>
               <ReactSafeHtml html={props.cardValue.body} components={components} />
-              <div dangerouslySetInnerHTML={{__html: props.cardValue.embed}}></div>
           </div>
+          <div dangerouslySetInnerHTML={{__html: props.cardValue.embed}} className='embedded'></div>
           <ImageList images={props.cardValue.images} />
       </div>
     );

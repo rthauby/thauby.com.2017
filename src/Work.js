@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Card from './Card'
-import CardList from './CardList'
-import CardSection from './CardSection'
+import Card from './Card';
+import CardList from './CardList';
+import CardSection from './CardSection';
 import CardData from './data/work.json';
 
 class Work extends Component {
