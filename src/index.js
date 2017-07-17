@@ -7,7 +7,7 @@ import Navigation from './Navigation';
 import Home from './Home';
 import Work from './Work';
 import Hobbies from './Hobbies';
-
+import Footer from './Footer'
 
 import './styles/index.css';
 
@@ -20,6 +20,7 @@ ReactDOM.render(
                 <Route path="/work" component={Work}/>
                 <Route path="/hobbies" component={Hobbies}/>
             </Switch>
+            <Footer/>
         </div>
     </Router>,
 document.getElementById('root'));
