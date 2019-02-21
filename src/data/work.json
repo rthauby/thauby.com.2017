@@ -12,7 +12,7 @@
     },
     {
         "title" : "VR Cornhole - PC Game Experiment",
-        "body" : "<p>VR Cornhole is a small experiment I built for <a href='https://www.isl.co'>ISL</a> using the HTC VIVE, and built on the Unreal Engine 4.</p><p>It leverages the Unreal Engine's multiplayer capabilities and combines them with VR support, for a unique fun game!</p><p>You can find more info about this project on this official <a href='https://isl.co/work/vr-cornhole/'>blog post</a>, and on the <a href='https://sudo.isl.co/early-days-in-vr/'>ISL engineering site</a></p>",
+        "body" : "<p>VR Cornhole is a small experiment I built for <a href='https://isl.co'>ISL</a> using the HTC VIVE, and built on the Unreal Engine 4.</p><p>It leverages the Unreal Engine's multiplayer capabilities and combines them with VR support, for a unique fun game!</p><p>You can find more info about this project on this official <a href='https://isl.co/work/vr-cornhole/'>blog post</a>, and on the <a href='https://sudo.isl.co/early-days-in-vr/'>ISL engineering site</a></p>",
         "images" : [
             "img/work/cornhole_01.jpg",
             "img/work/cornhole_02.jpg"
@@ -47,7 +47,7 @@
     },
     {
         "title" : "More work",
-        "body" : "<p>Some of the other, more long-running projects that I've worked on at ISL.</p><p><a href='https://www.serviceyr.org'>Service Year</a> is a non-profit that has been working with ISL for over 2 years, striving to connect young people with career opportunities in service. I've been very lucky to be a part of this team, its cause, and also has been a great learning experience in a more long-term project.</p><p><a href='https://www.fosi.org'>The Family Online Safety Institue</a> first came to us for a redesign about two years ago, and I was tasked with leading the Front End development for that project. Two years later and the maintenance contract is still in my hands.</p>",
+        "body" : "<p>Some of the other, more long-running projects that I've worked on at ISL.</p><p><a href='https://serviceyear.org'>Service Year</a> is a non-profit that has been working with ISL for over 2 years, striving to connect young people with career opportunities in service. I've been very lucky to be a part of this team, its cause, and also has been a great learning experience in a more long-term project.</p><p><a href='https://www.fosi.org'>The Family Online Safety Institue</a> first came to us for a redesign about two years ago, and I was tasked with leading the Front End development for that project. Two years later and the maintenance contract is still in my hands.</p>",
         "images" : [
             "img/work/serviceyr.png",
             "img/work/fosi.png"
