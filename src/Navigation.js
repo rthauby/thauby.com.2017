@@ -50,7 +50,6 @@ class Navigation extends Component {
                       <li className="nav-list__item"><NavLink to="/" activeClassName="selected" onClick={this.handleCloseNav}>Home</NavLink></li>
                       <li className="nav-list__item"><NavLink to="/work" activeClassName="selected" onClick={this.handleCloseNav}>Work</NavLink></li>
                       <li className="nav-list__item"><NavLink to="/hobbies" activeClassName="selected" onClick={this.handleCloseNav}>Hobbies</NavLink></li>
-                      <li className="nav-list__item"><a href="https://medium.com/@Pucho">Blog</a></li>
                   </ul>
               </div>
           </div>
