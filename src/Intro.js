@@ -7,7 +7,7 @@ class Intro extends Component {
     return (
       <section className="intro">
         <h1 className="intro__title">Rodrigo Thauby</h1>
-        <h2 className="intro__subtitle">UX Developer &amp; Designer / Game Dev Enthusiast / Traditional &amp; Digital Sculptor</h2>
+        <h2 className="intro__subtitle">Software Engineer,<br/>Designer, <br/>Game Dev Enthusiast, <br/>Traditional &amp; Digital Sculptor</h2>
         <ul className="intro__links">
             <li className="intro-links__items"><a href="https://www.github.com/rthauby">Github</a></li>
             <li className="intro-links__items"><a href="https://www.linkedin.com/in/rthauby/">Linkedin</a></li>
